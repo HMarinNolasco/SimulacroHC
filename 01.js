@@ -14,16 +14,6 @@ function soloNumeros(array) {
   var numeros1 = array.filter((el) => typeof el === 'number');
   return numeros1;
 
-  const numeros2 = [];
-
-  for (var i = 0; i < array.length; i++) {
-    if (typeof array[i] === 'number') {
-      numeros.push(array[i]);
-    }
-  }
-
-  return numeros2;
-
 }
 
 // No modifiques nada debajo de esta linea //
